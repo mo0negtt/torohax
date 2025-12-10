@@ -126,7 +126,7 @@ nav {
     }
 }
 
-. brand-text {
+.brand-text {
     color: var(--primary);
     font-size: 2rem;
     font-weight:  normal;
@@ -277,7 +277,7 @@ nav {
     }
 }
 
-. hero-content {
+.hero-content {
     flex:  1;
     color: var(--white);
     animation: slideInLeft 1s cubic-bezier(0.68, -0.55, 0.265, 1.55);
@@ -334,7 +334,7 @@ nav {
     letter-spacing: 0.5px;
 }
 
-. btn-group {
+.btn-group {
     display: flex;
     gap: 2rem;
     margin-bottom: 2rem;
@@ -390,7 +390,7 @@ nav {
     transform: translateY(-3px);
 }
 
-. btn span {
+.btn span {
     position: relative;
     z-index: 1;
 }
@@ -469,14 +469,14 @@ nav {
 }
 
 /* ========== FEATURES SECTION ========== */
-. features {
+.features {
     padding: 6rem 5%;
     background:  var(--white);
     position: relative;
     overflow: hidden;
 }
 
-. features::before {
+.features::before {
     content:  '';
     position: absolute;
     top: -50%;
@@ -625,7 +625,7 @@ nav {
     color: var(--white);
 }
 
-. feature-card:hover .feature-icon {
+.feature-card:hover.feature-icon {
     animation: bounce 0.6s ease;
 }
 
@@ -638,7 +638,7 @@ nav {
     }
 }
 
-. feature-card h3 {
+.feature-card h3 {
     color: var(--secondary);
     margin-bottom: 1rem;
     font-size: 1.6rem;
@@ -662,7 +662,7 @@ nav {
 }
 
 /* ========== STAFF SECTION ========== */
-. staff-section {
+.staff-section {
     padding: 6rem 5%;
     background:  linear-gradient(135deg, var(--dark) 0%, var(--secondary) 100%);
     color: var(--white);
@@ -684,7 +684,7 @@ nav {
     pointer-events: none;
 }
 
-. staff-section . section-title {
+.staff-section .section-title {
     color: var(--white);
     animation: fadeInScale 0.8s ease both;
 }
@@ -716,7 +716,7 @@ nav {
 .staff-card:nth-child(1) { 
     animation-delay: 0.1s; 
 }
-. staff-card:nth-child(2) { 
+.staff-card:nth-child(2) { 
     animation-delay: 0.2s; 
 }
 .staff-card:nth-child(3) { 
@@ -906,7 +906,7 @@ footer a: hover i {
         font-size: 1.5rem;
     }
 
-    . nav-links {
+    .nav-links {
         gap: 1.5rem;
         padding: 0 1.5rem;
     }
@@ -917,7 +917,7 @@ footer a: hover i {
         font-size:  1.3rem;
     }
 
-    . hero {
+    .hero {
         padding: 2rem 5%;
         gap: 2rem;
     }
@@ -952,7 +952,7 @@ footer a: hover i {
         font-size: 2rem;
     }
 
-    . feature-icon {
+    .feature-icon {
         width: 70px;
         height: 70px;
         font-size:  2.5rem;
